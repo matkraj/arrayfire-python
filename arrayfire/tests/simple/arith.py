@@ -139,6 +139,7 @@ def simple_arith(verbose = False):
     display_func(af.clamp(a, 0, b))
     display_func(af.clamp(a, b, 1))
 
+    display_func(af.mod(a,b))
     display_func(af.rem(a,b))
 
     a = af.randu(3,3) - 0.5
